@@ -28,5 +28,5 @@ route :: get('about', function(){
 });
 
 route :: get('articles/{id}', function($id){
-    echo "Selamat Datang di Artikel".$id;
+    echo "Selamat Duataang di Artikel".$id;
 });
