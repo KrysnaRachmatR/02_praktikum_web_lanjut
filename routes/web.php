@@ -30,3 +30,10 @@ route :: get('about', function(){
 route :: get('articles/{id}', function($id){
     echo "Selamat Duataang di Artikel".$id;
 });
+
+/*
+Route::get('/index', [PageController::class, 'index']);
+Route::get('/about', [PageController::class, 'about']);
+Route::get('/articles/{id}', [PageController::class, 'articles']);
+*/
+
